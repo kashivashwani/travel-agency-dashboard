@@ -56,6 +56,7 @@ declare interface Location {
 }
 
 declare interface Trip {
+  tripDetails: string;
   id: string;
   name: string;
   description: string;
